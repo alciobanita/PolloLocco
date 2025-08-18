@@ -10,5 +10,13 @@ class Cloud extends MoveableObject {
 
         this.x = Math.random() * 500;
 
+        this.animate();
     }
+
+    animate() {
+        this.moveLeft();
+    }
+
+
+
 }
